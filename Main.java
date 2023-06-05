@@ -2,10 +2,13 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
+    private static String playerColor;
 
     public static void main(String[] args) {
-        String playerColor = getPlayerColor();
+        playerColor = getPlayerColor();
         System.out.println("You're playing as " + playerColor);
+        ChessFieldLetters chessFieldLetters = new ChessFieldLetters();
+        chessFieldLetters.printBoard();
     }
 
     private static String getPlayerColor() {
