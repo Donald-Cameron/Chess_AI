@@ -15,5 +15,6 @@ public class ChessFieldNumbers {
     static int[][] createStartingField() {
         int[][] chessField = new int[8][8];
         return chessField;
+        //
     }
 }
