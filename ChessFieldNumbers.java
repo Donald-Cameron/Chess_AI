@@ -14,6 +14,10 @@ public class ChessFieldNumbers {
 
     static int[][] createStartingField() {
         int[][] chessField = new int[8][8];
+        chessField[1] = new int[]{1, 1, 1, 1, 1, 1, 1, 1};
+        chessField[6] = chessField[1];
+        chessField[0] = new int[]{5, 3, 4, 9, 2, 4, 3, 5};
+        chessField[7] = chessField[0];
         return chessField;
         //
     }
